@@ -18,7 +18,9 @@ public class ExampleCodeApplication {
 
 	@GetMapping
 	public String hello(){
-		return "Hello world";
+		String cadena = "";
+		cadena = "my first app";
+		return cadena;
 	}
 
 }
